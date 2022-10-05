@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #000000 16.62%, #000000 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    height: 300px;
+    padding: 100px;
+    
+   
+}
+a{
+    padding: 10px;
+    width: 140px;
+    height: 60px;
+}
+.cabecalho-nevegacao {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-nevegacao-item {
+    font-family: 'Sarala', sans-serif;
+    box-shadow: 9px 9px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 450;
+    font-size: 15px;
+    color: #2F2325;
+    background-color: #ffffff;
+
+}
+
+.cabecalho-nevegacao-item:hover {
+    background-color: #e97f29;
+    
+}
+
+.conteudo {
+    margin-bottom: 28px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-princial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f9de64;
+}
+
+.conteudo-principal-botao {
+    background-color: #f9de64;
+    width: 180px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2F2325;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: #eba04b;
+}
+
+.conteudo-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f9de64;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-parafrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.rodape {
+    padding: 10px;
+    border-top: 1px solid #FFF2E7;
+}
+
+.rodape-imagem {
+    height: 200px;
+    display: block;
+    margin: 0 auto; 
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+  .img_empresa {
+
+    vertical-align: middle;
+    
+    border-style: none;
+    
+    width: 70%;
+    
+    height: auto;
+    
+    -moz-transition: all 0.3s;
+    
+    -webkit-transition: all 0.3s;
+    
+    transition: all 0.3s;
+    
+    }
+    
+    .acai1:hover {
+    
+    vertical-align: middle;
+    
+    border-style: none;
+    
+    width: 20%;
+    
+    height: auto;
+    
+    -moz-transition: all 0.3s;
+    
+    -webkit-transition: all 0.3s;
+    
+    transition: all 0.3s;
+    
+    }
+    
+    .img{
+        width: 1440px;
+        height: 810px;
+
+    }
+    h1 {
+        font-family: Verdana, Arial, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        background-color: #00c;
+        color: transparent;
+        text-shadow: -1px -1px 6px rgba(255, 255, 255, 0.8);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+      }
+    
+
+    
+
+
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #e99c44;
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #f9de64;
+    display: block;
+}
+
+
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #f9de64;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  
+    
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 1.0em;
+    background: #eea23f;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+   
+    left: 100%;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #f18665;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.combo {
+    width: 1141px; 
+    height: 797px;
+    border-radius: 58px;
+    src:"combos.png"
+}
+
+   .img4{
+    width: 1225px; 
+    height: 662px;
+    border-radius: 58px;
+   }
+    
